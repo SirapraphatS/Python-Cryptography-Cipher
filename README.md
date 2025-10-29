@@ -15,16 +15,42 @@ This is a simple, Python tool for encrypting and decrypting messages using the *
 
 ## Prerequisites
 
-1.  **Python 3.x**
+    **Python 3.x**
     *(No special libraries are needed. `string` and `argparse` are included with Python.)*
 
-## How to Use It (Usage Examples)
+---
 
-You can run this script directly from your terminal. You must provide a **key** (a number) and choose a **mode** (encrypt `-e` or decrypt `-d`).
+This project uses only built-in Python libraries, so no installation is needed.
 
-### 1. To Encrypt a Message
+Just clone the repository, go into the folder, and run the script. You can copy and paste all the commands below at once:
+
+### 1. Clone the repository 
+
+```bash
+git clone https://github.com/YourUsername/Your-Repo-Name.git
+```
+
+### 2. Go into the newly created folder
+
+```bash
+cd Your-Repo-Name
+```
+
+### 3. That's it! You are ready.
+
+### Run the line below to see how to use the tool.
+
+```bash
+echo "Setup complete! Run the --help command to see options:"
+python caesar_cipher.py --help
+```
+## Examples
+
+### To Encrypt a Message
 
 Use the `-k` (key) and `-e` (encrypt) flags.
+
+Input :
 
 ```bash
 python caesar_cipher.py -k 3 -e "Hello World!"
@@ -38,9 +64,11 @@ Key:       3
 Encrypted: Khoor Zruog!
 ```
 
-### 2. To Decrypt a Message
+### To Decrypt a Message
 
 Use the same -k (key) you used to encrypt and the -d (decrypt) flag.
+
+Input :
 
 ```Bash
 python caesar_cipher.py -k 3 -d "Khoor Zruog!"
