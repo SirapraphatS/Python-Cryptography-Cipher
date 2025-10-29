@@ -38,6 +38,7 @@ cd Your-Repo-Name
 
 ### 3. That's it! You are ready.
 
+
 ### Run the line below to see how to use the tool.
 
 ```bash
@@ -46,7 +47,7 @@ python caesar_cipher.py --help
 ```
 ## Examples
 
-### To Encrypt a Message
+### 1. To Encrypt a Message
 
 Use the `-k` (key) and `-e` (encrypt) flags.
 
@@ -64,7 +65,7 @@ Key:       3
 Encrypted: Khoor Zruog!
 ```
 
-### To Decrypt a Message
+### 2. To Decrypt a Message
 
 Use the same -k (key) you used to encrypt and the -d (decrypt) flag.
 
