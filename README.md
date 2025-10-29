@@ -33,7 +33,7 @@ git clone https://github.com/YourUsername/Your-Repo-Name.git
 ### 2. Go into the newly created folder
 
 ```bash
-cd Your-Repo-Name
+cd Python-Cryptography-Cipher
 ```
 
 ### 3. That's it! You are ready.
