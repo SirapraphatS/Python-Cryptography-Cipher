@@ -15,8 +15,8 @@ This is a simple, Python tool for encrypting and decrypting messages using the *
 
 ## Prerequisites
 
-    **Python 3.x**
-    *(No special libraries are needed. `string` and `argparse` are included with Python.)*
+    Python 3.x
+    (No special libraries are needed. `string` and `argparse` are included with Python.)
 
 ---
 
